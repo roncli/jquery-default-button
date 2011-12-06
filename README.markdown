@@ -4,7 +4,7 @@
 A jQuery plugin to easily define a default button<br />
 Requires jQuery 1.7+
 
-©2010-2011 [Ronald M. Clifford](mailto:roncli@roncli.com)
+(c)2010-2011 [Ronald M. Clifford](mailto:roncli@roncli.com)
 
 Dual licensed under the MIT and GPL licenses:<br />
 [MIT license](http://www.opensource.org/licenses/mit-license.php)<br />
