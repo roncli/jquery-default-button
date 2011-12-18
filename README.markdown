@@ -1,5 +1,5 @@
 # Default Button
-### Version 1.1 - 2011-12-06
+### Version 1.2 - 2011-12-18
 
 A jQuery plugin to easily define a default button<br />
 Requires jQuery 1.7+
@@ -17,7 +17,7 @@ The following HTML and script demonstrates how to use the plugin.
     <html>
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <script src="jquery-defaultButton-1.1.js"></script>
+        <script src="jquery-defaultButton.min.js"></script>
     </head>
     <body>
         <div id="Div1">
