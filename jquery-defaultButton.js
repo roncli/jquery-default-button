@@ -5,9 +5,8 @@
  *
  * ©2010-2011 Ronald M. Clifford (roncli@roncli.com)
  *
- * Dual licensed under the MIT and GPL licenses:
+ * Licensed under the MIT license:
  * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
  *
  * Usage:
  * $(region).defaultButton(button);
