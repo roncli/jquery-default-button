@@ -6,9 +6,8 @@ Requires jQuery 1.7+
 
 (c)2010-2011 [Ronald M. Clifford](mailto:roncli@roncli.com)
 
-Dual licensed under the MIT and GPL licenses:<br />
+Licensed under the MIT license:<br />
 [MIT license](http://www.opensource.org/licenses/mit-license.php)<br />
-[GPL license](http://www.gnu.org/licenses/gpl.html)
 
 ## Example Usage
 
