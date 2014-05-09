@@ -1,23 +1,23 @@
 {
-    name: "defaultButton",
-    version: "1.2.0",
-    title: "Default Button",
-    author: {
-        name: "Ronald M. Clifford",
-        email: "roncli@roncli.com",
-        url: "http://www.roncli.com"
+    "name": "defaultButton",
+    "version": "1.2.0+1",
+    "title": "Default Button",
+    "author": {
+        "name": "Ronald M. Clifford",
+        "email": "roncli@roncli.com",
+        "url": "http://www.roncli.com"
     },
-    licenses: [
+    "licenses": [
         {
-            type: "MIT",
-            url: "http://www.opensource.org/licenses/mit-license.php"
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
         }
     ],
-    dependencies: {
-        jquery: ">=1.7"
+    "dependencies": {
+        "jquery": ">=1.7"
     },
-    description: "A jQuery plugin to easily define a default button",
-    keywords: ["default", "button"],
-    homepage: "https://github.com/roncli/jquery-defaultButton",
-    bugs: "https://github.com/roncli/jquery-defaultButton/issues"
+    "description": "A jQuery plugin to easily define a default button",
+    "keywords": ["default", "button"],
+    "homepage": "https://github.com/roncli/jquery-defaultButton",
+    "bugs": "https://github.com/roncli/jquery-defaultButton/issues"
 }
