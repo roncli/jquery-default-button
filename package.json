@@ -1,0 +1,35 @@
+{
+    "name": "jquery-default-button",
+    "version": "2.0.0",
+    "description": "A jQuery plugin to easily define a default button.",
+    "homepage": "https://github.com/roncli/jquery-default-button",
+    "bugs": {
+        "email": "roncli@roncli.com",
+        "url": "https://github.com/roncli/jquery-default-button/issues"
+    },
+    "license": "MIT",
+    "author": {
+        "email": "roncli@roncli.com",
+        "name": "Ronald M. Clifford",
+        "url": "http://roncli.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/roncli/jquery-default-button.git"
+    },
+    "keywords": [
+        "jquery-plugin",
+        "ecosystem:jquery"
+    ],
+   "dependencies": {
+        "jquery": "3.6.0"
+    },
+    "devDependencies": {
+        "@babel/core": "7.18.0",
+        "@babel/eslint-parser": "7.17.0",
+        "@types/jquery": "3.5.14"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    }
+}

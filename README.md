@@ -1,46 +1,22 @@
-# Default Button
-### Version 1.2 - 2011-12-18
+# jquery-default-button
+A jQuery plugin to easily define a default button.
 
-A jQuery plugin to easily define a default button<br />
-Requires jQuery 1.7+
+## Installation
 
-(c)2010-2011 [Ronald M. Clifford](mailto:roncli@roncli.com)
+You can download the `/dist/jquery-default-button.min.js` file into your project.  You can also use npm to install it that way:
 
-Licensed under the MIT license:<br />
-[MIT license](http://www.opensource.org/licenses/mit-license.php)<br />
+```
+npm install jquery-default-button
+```
 
-## Example Usage
+## Usage
 
-The following HTML and script demonstrates how to use the plugin.
+See the `/examples` directory for an example of how to use the plugin.  Note that in a normal project you will need to expose the `/dist/jquery-default-button.min.js` file in some way.
 
-    <html>
-    <head>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <script src="jquery-defaultButton.min.js"></script>
-    </head>
-    <body>
-        <div id="Div1">
-            Pressing enter in either of these textboxes will press Button1.<br />
-            <input type="text"/>
-            <input type="text"/>
-        </div>
-        <div id="Div2">
-            Pressing enter in either of these textboxes will press Button2.<br />
-            <input type="text"/>
-            <input type="text"/>
-        </div>
-        <input type="button" id="Button1" value="Button1" />
-        <input type="button" id="Button2" value="Button2" />
-        <script>
-            $(document).ready(function()
-            {
-                $("#Div1").defaultButton("#Button1");
-                $("#Div2").defaultButton("#Button2");
-                $("input[type=button]").on("click", function()
-                {
-                    alert("You pressed " + $(this).attr("id"));
-                });
-            });
-        </script>
-    </body>
-    </html>
+## Version History
+
+### v2.0.0 - 8/10/2022
+* Modernized for latest jQuery.
+
+### v1.2.0 - 12/18/2011
+* Initial version posted to GitHub.

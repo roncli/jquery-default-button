@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="../dist/jquery-default-button.min.js"></script>
+    </head>
+    <body>
+        <div id="Div1">
+            Pressing enter in either of these textboxes will press Button1.<br />
+            <input type="text"/>
+            <input type="text"/>
+        </div>
+        <div id="Div2">
+            Pressing enter in either of these textboxes will press Button2.<br />
+            <input type="text"/>
+            <input type="text"/>
+        </div>
+        <input type="button" id="Button1" value="Button1" />
+        <input type="button" id="Button2" value="Button2" />
+        <script>
+            $(document).ready(function()
+            {
+                $("#Div1").defaultButton("#Button1");
+                $("#Div2").defaultButton("#Button2");
+                $("input[type=button]").on("click", function()
+                {
+                    alert("You pressed " + $(this).attr("id"));
+                });
+            });
+        </script>
+    </body>
+</html>
