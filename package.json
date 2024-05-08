@@ -27,7 +27,7 @@
     "devDependencies": {
         "@babel/core": "7.24.5",
         "@babel/eslint-parser": "7.24.5",
-        "@types/jquery": "3.5.29"
+        "@types/jquery": "3.5.30"
     },
     "engines": {
         "node": ">=16.0.0"
