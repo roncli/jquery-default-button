@@ -22,7 +22,7 @@
         "ecosystem:jquery"
     ],
    "dependencies": {
-        "jquery": "3.7.1"
+        "jquery": "4.0.0"
     },
     "devDependencies": {
         "@babel/core": "7.28.6",
