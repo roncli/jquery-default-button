@@ -22,12 +22,12 @@
         "ecosystem:jquery"
     ],
    "dependencies": {
-        "jquery": "3.7.1"
+        "jquery": "4.1.0"
     },
     "devDependencies": {
         "@babel/core": "8.1.2",
         "@babel/eslint-parser": "8.1.2",
-        "@types/jquery": "3.5.33"
+        "@types/jquery": "4.0.1"
     },
     "engines": {
         "node": ">=16.0.0"
